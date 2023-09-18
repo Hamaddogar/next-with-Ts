@@ -1,17 +1,5 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
+"use client "
+import Link from 'next/link';
 export default function Example() {
   return (
     <>
@@ -97,7 +85,7 @@ export default function Example() {
                       </a>
                     </div>
                   </div>
-
+ 
                   <div>
                     <button
                       type="submit"
@@ -129,7 +117,9 @@ export default function Example() {
                     </svg>
                     <span className="text-sm font-semibold leading-6">Twitter</span>
                   </a>
-
+                 
+              <Link  href="/Signup">signup</Link>
+                  
                   <a
                     href="#"
                     className="flex w-full items-center justify-center gap-3 rounded-md bg-[#24292F] px-3 py-1.5 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#24292F]"
