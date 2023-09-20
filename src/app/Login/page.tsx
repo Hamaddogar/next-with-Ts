@@ -10,7 +10,7 @@ import { toast } from "react-hot-toast";
 
 
 export default function LoginPage() {
-     const myname="fdfd"
+     const myname=`sfdf`
     const router = useRouter();
     const [user, setUser] = React.useState({
         email: "",
